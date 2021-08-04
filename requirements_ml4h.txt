@@ -1,0 +1,54 @@
+appdirs==1.4.4
+arrow==0.14.7
+astroid==2.3.3
+attrs==21.2.0
+black==19.10b0
+certifi==2021.5.30
+chardet==4.0.0
+click @ file:///tmp/build/80754af9/click_1621604852318/work
+filelock==3.0.12
+Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+Flask-Markdown==0.3
+Frozen-Flask==0.15
+huggingface-hub==0.0.8
+ics==0.7
+idna==2.10
+importlib-metadata @ file:///opt/concourse/worker/volumes/live/a634a87c-b5e5-41bd-628d-cd0413666c93/volume/importlib-metadata_1617877368300/work
+isort==4.3.21
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2==3.0.1
+joblib==1.0.1
+lazy-object-proxy==1.4.3
+Markdown==3.3.4
+MarkupSafe @ file:///opt/concourse/worker/volumes/live/c9141381-1dba-485b-7c96-99007bf7bcfd/volume/markupsafe_1621528150226/work
+mccabe==0.6.1
+mypy==0.761
+mypy-extensions==0.4.3
+numpy==1.20.3
+packaging==20.9
+pathspec==0.8.1
+pylint==2.4.4
+pyparsing==2.4.7
+python-dateutil==2.8.1
+PyYAML==5.4.1
+regex==2021.4.4
+requests==2.25.1
+rocketchat-API==1.16.0
+sacremoses==0.0.45
+scikit-learn==0.24.2
+scipy==1.6.3
+six==1.16.0
+sklearn==0.0
+TatSu==5.6.1
+threadpoolctl==2.1.0
+tokenizers==0.10.3
+toml==0.10.2
+torch==1.4.0
+tqdm @ file:///tmp/build/80754af9/tqdm_1615925068909/work
+transformers==4.6.1
+typed-ast==1.4.3
+typing-extensions==3.10.0.0
+urllib3==1.26.5
+Werkzeug==2.0.1
+wrapt==1.11.2
+zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
