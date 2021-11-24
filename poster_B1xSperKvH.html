@@ -91,7 +91,7 @@
 
 <meta name="citation_publication_date" content="December 2021"/>
 <meta name="citation_conference_title"
-      content="Ml4h Machine Learning For Health"/>
+      content="Machine Learning For Health (Ml4h)"/>
 <meta name="citation_inbook_title" content="Proceedings of ML4H 2021"/>
 <meta name="citation_abstract" content="Spiking Neural Networks (SNNs) operate with asynchronous discrete events (or spikes) which can potentially lead to higher energy-efficiency in neuromorphic hardware implementations. Many works have shown that an SNN for inference can be formed by copying the weights from a trained Artificial Neural Network (ANN) and setting the firing threshold for each layer as the maximum input received in that layer. These type of converted SNNs require a large number of time steps to achieve competitive accuracy which diminishes the energy savings. The number of time steps can be reduced by training SNNs with spike-based backpropagation from scratch, but that is computationally expensive and slow. To address these challenges, we present a computationally-efficient training technique for deep SNNs. We propose a hybrid training methodology: 1) take a converted SNN and use its weights and thresholds as an initialization step for spike-based backpropagation, and 2) perform incremental spike-timing dependent backpropagation (STDB) on this carefully initialized network to obtain an SNN that converges within few epochs and requires fewer time steps for input processing. STDB is performed with a novel surrogate gradient function defined using neuron&#39;s spike time. The weight update is proportional to the difference in spike timing between the current time step and the most recent time step the neuron generated an output spike. The SNNs trained with our hybrid conversion-and-STDB training perform at $10{\times}{-}25{\times}$ fewer number of time steps and achieve similar accuracy compared to purely converted SNNs. The proposed training methodology converges in less than $20$ epochs of spike-based backpropagation for most standard image classification datasets, thereby greatly reducing the training complexity compared to training SNNs from scratch. We perform experiments on CIFAR-10, CIFAR-100 and ImageNet datasets for both VGG and ResNet architectures. We achieve top-1 accuracy of $65.19\%$ for ImageNet dataset on SNN with $250$ time steps, which is $10{\times}$ faster compared to converted SNNs with similar accuracy."/>
 
@@ -136,65 +136,65 @@
                 id="navbarNav"
         >
             <ul class="navbar-nav ml-auto">
-                
+
                 
                 <li class="nav-item ">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 
-                
+
                 <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Attend
-                </a>  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 200px;">
-						<li><a class="nav-link" href="registration.html" >Registration</a></li>	
-						<li><a class="nav-link" href="participation_guide.html" >Participation Guide</a></li>	
-						<li><a class="nav-link" href="schedule.html" >Schedule</a></li>	
-						<!--li><a class="nav-link" href="chat.html" >Chat</a></li-->	
-						<li><a class="nav-link" href="speakers.html" >Speakers</a></li>	
-						<li><a class="nav-link" href="research_roundtables.html" >Research Roundtables</a></li>	
-						<li><a class="nav-link" href="career_mentorship.html" >Career Mentorship</a></li>	
-						<li><a class="nav-link" href="raffle.html" >Raffle</a></li>	
-						<li><a class="nav-link" href="code_of_conduct.html" >Code of Coduct</a></li>	
-					  </ul>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 200px;">
+                    <li><a class="nav-link" href="registration.html" >Registration</a></li>
+                    <li><a class="nav-link" href="participation_guide.html" >Participation Guide</a></li>
+                    <li><a class="nav-link" href="schedule.html" >Schedule</a></li>
+                    <!--li><a class="nav-link" href="chat.html" >Chat</a></li-->
+                    <li><a class="nav-link" href="speakers.html" >Speakers</a></li>
+                    <li><a class="nav-link" href="research_roundtables.html" >Research Roundtables</a></li>
+                    <li><a class="nav-link" href="career_mentorship.html" >Career Mentorship</a></li>
+                    <li><a class="nav-link" href="raffle_terms.html" >Raffle</a></li>
+                    <li><a class="nav-link" href="code_of_conduct.html" >Code of Conduct</a></li>
+                </ul>
                 </li>
-                
                 <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Submit
-                </a>  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 200px;">
-						<li><a class="nav-link" href="call_for_participation.html" >CfP</a></li>	
-						<li><a class="nav-link" href="writing_guidelines.html" >Writing Guidelines</a></li>	
-						<li><a class="nav-link" href="reviewer_instructions.html" >Reviewer Instructions</a></li>
-						<li><a class="nav-link" href="reviewer_mentorship.html" >Reviewer Mentorship</a></li>	
-					  </ul>
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Submit
+                  </a> 
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 200px;">
+                    <li><a class="nav-link" href="call_for_participation.html">Call for Participation</a></li>
+                    <li><a class="nav-link" href="writing_guidelines.html" >Writing Guidelines</a></li>
+                    <li><a class="nav-link" href="reviewer_instructions.html" >Reviewer Instructions</a></li>
+                    <li><a class="nav-link" href="submission_mentorship.html" >Submission Mentorship</a></li>
+                    <li><a class="nav-link" href="reviewer_mentorship.html" >Reviewer Mentorship</a></li>
+                  </ul>
                 </li>
 
                 <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Organization
-                </a>  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 200px;">
-						<li><a class="nav-link" href="about.html" >About</a></li>	
-						<li><a class="nav-link" href="committee.html" >Organizers</a></li>	
-					  </ul>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 200px;">
+                  <li><a class="nav-link" href="about.html" >About</a></li>
+                  <li><a class="nav-link" href="committee.html" >Organizers</a></li>
+                </ul>
                 </li>
 
-                
                 <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Past Events
-                </a>                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						
-						<li><a class="nav-link" href="https://ml4health.github.io/2020">2020</a></li>	
-						<li><a class="nav-link" href="https://ml4health.github.io/2019">2019</a></li>	
-						<li><a class="nav-link" href="https://ml4health.github.io/2018">2018</a></li>	
-						<li><a class="nav-link" href="https://ml4health.github.io/2017">2017</a></li>	
-						<li><a class="nav-link" href="https://nips.cc/Conferences/2016/Schedule?showEvent=6209">2016</a></li>	
-					  </ul>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="nav-link" href="https://ml4health.github.io/2020">2020</a></li>
+                  <li><a class="nav-link" href="https://ml4health.github.io/2019">2019</a></li>
+                  <li><a class="nav-link" href="https://ml4health.github.io/2018">2018</a></li>
+                  <li><a class="nav-link" href="https://ml4health.github.io/2017">2017</a></li>
+                  <li><a class="nav-link" href="https://nips.cc/Conferences/2016/Schedule?showEvent=6209">2016</a></li>
+                </ul>
                 </li>
-
             </ul>
-            
         </div>
     </div>
 </nav>
@@ -221,49 +221,33 @@
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
             
-            <a href="papers.html?filter=authors&search=Nitin Rathi"
-               class="text-muted"
-            >Nitin Rathi</a
-            >,
+            Nitin Rathi,
             
-            <a href="papers.html?filter=authors&search=Gopalakrishnan Srinivasan"
-               class="text-muted"
-            >Gopalakrishnan Srinivasan</a
-            >,
+            Gopalakrishnan Srinivasan,
             
-            <a href="papers.html?filter=authors&search=Priyadarshini Panda"
-               class="text-muted"
-            >Priyadarshini Panda</a
-            >,
+            Priyadarshini Panda,
             
-            <a href="papers.html?filter=authors&search=Kaushik Roy"
-               class="text-muted"
-            >Kaushik Roy</a
-            >
+            Kaushik Roy
             
         </h3>
         <p class="card-text text-center">
-            <span class="">Keywords:</span>
+            <span class=""><b>Keywords:</b></span>
             
-            <a
-                    href="papers.html?filter=keywords&search=imagenet"
-                    class="text-secondary text-decoration-none"
-            >imagenet</a
-            >
+            imagenet
             
+            <br>
+            <p style="text-align:left;">
+            <b>Abstract:</b> Spiking Neural Networks (SNNs) operate with asynchronous discrete events (or spikes) which can potentially lead to higher energy-efficiency in neuromorphic hardware implementations. Many works have shown that an SNN for inference can be formed by copying the weights from a trained Artificial Neural Network (ANN) and setting the firing threshold for each layer as the maximum input received in that layer. These type of converted SNNs require a large number of time steps to achieve competitive accuracy which diminishes the energy savings. The number of time steps can be reduced by training SNNs with spike-based backpropagation from scratch, but that is computationally expensive and slow. To address these challenges, we present a computationally-efficient training technique for deep SNNs. We propose a hybrid training methodology: 1) take a converted SNN and use its weights and thresholds as an initialization step for spike-based backpropagation, and 2) perform incremental spike-timing dependent backpropagation (STDB) on this carefully initialized network to obtain an SNN that converges within few epochs and requires fewer time steps for input processing. STDB is performed with a novel surrogate gradient function defined using neuron&#39;s spike time. The weight update is proportional to the difference in spike timing between the current time step and the most recent time step the neuron generated an output spike. The SNNs trained with our hybrid conversion-and-STDB training perform at $10{\times}{-}25{\times}$ fewer number of time steps and achieve similar accuracy compared to purely converted SNNs. The proposed training methodology converges in less than $20$ epochs of spike-based backpropagation for most standard image classification datasets, thereby greatly reducing the training complexity compared to training SNNs from scratch. We perform experiments on CIFAR-10, CIFAR-100 and ImageNet datasets for both VGG and ResNet architectures. We achieve top-1 accuracy of $65.19\%$ for ImageNet dataset on SNN with $250$ time steps, which is $10{\times}$ faster compared to converted SNNs with similar accuracy.
+            </p>
         </p>
         <div class="text-center p-3">
-            <a class="card-link" data-toggle="collapse" role="button"
+            <!--a class="card-link" data-toggle="collapse" role="button"
                href="#details">
-                Abstract
-            </a>
-            <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238">
-                Paper
+                Abstract 
+            </a-->
+            <a class="card-link" target="_blank" href="">
             </a>
             
-            <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link">
-                Code
-            </a>
             
         </div>
     </div>
@@ -280,62 +264,17 @@
     </div>
 </div>
 
-<h5 style="color: red;">
+<!--h5 style="color: red;">
     Add content for posters. This could be a video, embedded pdf, chat room ....
-</h5>
-
-<!-- Chat -->
-<div class="border-top my-3"></div>
-<div class="row p-4" id="faq">
-  <div class="col-12 bd-content">
-    <h2 class="text-center">Chat</h2>
-  </div>
-</div>
-
-<div class="col-md-12 col-xs-12 p-2">
-    <div id="gitter" class="slp">
-        <center>
-            <iframe frameborder="0"
-                    src="https://chat.ml4h.cc/channel/paper_B1xSperKvH?layout=embedded"
-                    height="700px" width="100%"></iframe>
-        </center>
-    </div>
-</div>
-
+</h5-->
 <!-- Slides Live-->
 
-<div class="border-top my-3"></div>
-<div class="row p-4" id="faq">
-  <div class="col-12 bd-content">
-    <h2 class="text-center">Example SlidesLive</h2>
-  </div>
-</div>
 
-<div class="col-md-12 col-xs-12 my-auto p-2">
-    <div id="presentation-embed" class="slp my-auto"></div>
-    <script src='https://slideslive.com/embed_presentation.js'></script>
-    <script>
-      embed = new SlidesLiveEmbed("presentation-embed", {
-        presentationId:
-          "38922815",
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true,
-        verticalWhenWidthLte: 500,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true,
-      });
-    </script>
-</div>
+
+
 
 
 <!-- Chat -->
-
-<div class="border-top my-3"></div>
-<div class="row p-4" id="faq">
-  <div class="col-12 bd-content">
-    <h2 class="text-center">Example Poster</h2>
-  </div>
-</div>
 
 <div role="main" id="pdf_view"></div>
 
@@ -351,6 +290,7 @@
     initPDFViewer(pdfFile, "#pdf_view");
   });
 </script>
+
 
 
 
