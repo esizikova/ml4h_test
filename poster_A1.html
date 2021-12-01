@@ -1,10 +1,11 @@
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     
+
+
     
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
@@ -76,8 +77,23 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>ML4H: Schedule</title>
+    <title>ML4H: Towards Explainable End-to-End Prostate Cancer Relapse Prediction from H&amp;E Images Combining Self-Attention Multiple Instance Learning with a Recurrent Neural Network</title>
     
+<meta name="citation_title" content="Towards Explainable End-to-End Prostate Cancer Relapse Prediction from H&amp;E Images Combining Self-Attention Multiple Instance Learning with a Recurrent Neural Network"/>
+
+<meta name="citation_author" content="Esther Dietrich, Patrick Fuhlert, Anne Ernst, Guido Sauter, Maximilian Lennartz, H. Siegfried Stiehl, Marina Zimmermann*, Stefan Bonn*"/>
+
+<meta name="citation_publication_date" content="December 2021"/>
+<meta name="citation_conference_title"
+      content="Machine Learning For Health (Ml4h)"/>
+<meta name="citation_inbook_title" content="Proceedings of ML4H 2021"/>
+<meta name="citation_abstract" content="Clinical decision support for histopathology image data mainly focuses on strongly supervised annotations, which offers intuitive interpretability, but is bound by expert performance. Here, we propose an explainable cancer relapse prediction network (eCaReNet) and show that end-to-end learning without strong annotations offers state-of-the-art performance while interpretability can be included through an attention mechanism. On the use case of prostate cancer survival prediction, using 14,479 images and only relapse times as annotations, we reach a cumulative dynamic AUC of 0.78 on a validation set, being on par with an expert pathologist (and an AUC of 0.77 on a separate test set). Our model is well-calibrated and outputs survival curves as well as a risk score and group per patient. Making use of the attention weights of a multiple instance learning layer, we show that malignant patches have a higher influence on the prediction than benign patches, thus offering an intuitive interpretation of the prediction. Our code is available atÊwww.github.com/imsb-uke/ecarenet."/>
+
+<meta name="citation_keywords" content="explainability, attention"/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
 </head>
 
 <body>
@@ -121,7 +137,7 @@
                 </li>
                 
 
-                <li class="nav-item dropdown active">
+                <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Attend
                 </a>
@@ -180,83 +196,95 @@
 
 
 <!-- User Overrides -->
-
-
+ 
 
 <div class="container">
     <!-- Tabs -->
     <div class="tabs">
-        
-  <div class="page-header text-center">
-    <h1>Schedule</h1>
-  </div>
-
+         
     </div>
     <!-- Content -->
     <div class="content">
         
-<div class="page-content">
 
-
-<p> The workshop will be held December 4 virtually. Times are listed in EST.</p>
-
-<!--p> Our videos are available on <a href="https://slideslive.com/neurips/machine-learning-for-health-ml4h-advancing-healthcare-for-all">SlidesLive</a> including keynotes, panels, and spotlight presentations.</p>
-
-  <p>Previously, the <a href="https://neurips.cc/virtual/2020/protected/workshop_16134.html">NeurIPS workshop page</a> contained live video, chat links, and the most updated schedule. We also created a <a href="https://docs.google.com/document/d/1p2IjQNUnYWE9iakdy92AlHCJTh9Izto213SoTAPGEUs/edit?usp=sharing">Livestream Guide for Attendees</a></p>
-
-<p>The workshop adheres to to the <a href="https://nips.cc/public/CodeOfConduct">NeurIPS Code of Conduct</a>. Please contact the organization committee with any concerns.</p>
-
-<p> Videos will be posted here after the conference. Feedback and interest in organizing can be <a href="http://bit.ly/3oA57qr">submitted here</a></p-->
-
-<div class="table-responsive" id="schedule-table">
-  <table class="table table-bordered">
-    <col width="15%" />
-    <col width="90%" />
-
-    <tr> <td><b>Time</b></td> <td><b>Title</b></td></tr>
-    </b>
-    <tbody>
-      <tr> <td>9:00-9:10</td>   <td>Opening remarks</td> </tr>
-      <tr> <td>9:10-9:30</td>   <td><b>Uri Shalit</b>: When and How can Machine Learning be Used for Treatment Recommendation Based on Patient Records </td> </tr>
-      <tr> <td>9:30-9:50</td>   <td><b>Shalmali Joshi</b>: Towards Robust, Safe and Ethical ML for Health </td> </tr>
-      <tr> <td>9:50-10:10</td>  <td>Discussion with <b>Uri Shalit</b> and <b>Shalmali Joshi</b></td> </tr>
-      <tr> <td>10:10-10:20</td> <td><b>Lorena Qendro</b>: Best thematic paper award - Early Exit Ensembles for Uncertainty Quantification</td> </tr>
-      <tr> <td>10:20-10:25</td> <td>Q&A with Lorena Qendro</td> </tr>
-      <tr> <td>10:25-10:40</td> <td>Paper spotlights A<br>
-									<b>Tuan Truong</b>: How Transferable are Self-supervised Features in Medical Image Classification Tasks?<br>
-									<b>Milan Kuzmanovic</b>: Deconfounding Temporal Autoencoder: Estimating Treatment Effects over Time Using Noisy Proxies<br>
-									<b>Chao Pang</b>: CEHR-BERT: Incorporating temporal information from structured EHR data to improve prediction tasks <br></td> </tr>
-
-      <tr> <td>10:40-11:30</td> <td>Poster session A</td> </tr>
-      <tr> <td>11:30-12:10</td> <td>Lunch</td></tr>
-      <tr> <td>12:10-12:30</td> <td><b>Rory Sayres</b>: Case studies of real-world medical AI deployment: What can ML and HCI lenses teach us, and each other?</td> </tr>
-      <tr> <td>12:30-12:50</td> <td><b>Xiao Liu</b>: Evidence Standards for AI in Healthcare</td> </tr>
-      <tr> <td>12:50-13:10</td> <td><b>Karandeep Singh</b>: Bringing Machine Learning Models to the Bedside</td> </tr>
-      <tr> <td>13:10-13:40</td> <td>Discussion with <b>Rory Sayres</b>, <b>Xiao Liu</b>, and <b>Karandeep Singh</b></td> </tr>
-      <tr> <td>13:40-14:40</td> <td>Round table discussions</td> </tr>
-      <tr> <td>14:40-14:50</td> <td>Break</td> </tr>
-      <tr> <td>14:50-15:10</td> <td><b>Aisha Walcott-Bryant</b>: The Great Potential of AI to Transform Healthcare: A COVID-19 Story</td> </tr>
-      <tr> <td>15:10-15:30</td> <td><b>Sendhil Mullainathan</b>: Ground Truth in Health: Nightingale Open Science</td> </tr>
-      <tr> <td>15:30-15:50</td> <td>Discussion with <b>Aisha Walcott-Bryant</b> and <b>Sendhil Mullainathan</b>	</td> </tr>
-      <tr> <td>15:50-16:00</td> <td><b>Tianwei Yin</b>: Best paper award - End-to-End Sequential Sampling and Reconstruction for MRI</td> </tr>
-      <tr> <td>16:00-16:05</td> <td>Q&A with Tianwei Yin</td> </tr>
-      <tr> <td>16:05-16:20</td> <td>Paper spotlights B<br>
-									<b>Seongsu Bae</b>: Question Answering for Complex Electronic Health Records Database using Unified Encoder-Decoder Architecture<br>
-									<b>Bryan Gopal</b>: 3KG: Contrastive Learning of 12-Lead Electrocardiograms using Physiologically-Inspired Augmentations<br>
-									<b>Neeraj Wagh</b>: Domain-guided Self-supervision of EEG Data Improves Downstream Classification Performance and Generalizability<br></tr>
-									  
-      
-      <tr> <td>15:50-16:20</td> <td>Paper spotlights B</td> </tr>
-      <tr> <td>16:20-17:10</td> <td>Poster session B</td> </tr>
-      <tr> <td>17:10-17:20</td> <td>Break</td> </tr>
-      <tr> <td>17:20-17:40</td> <td><b>Yoshua Bengio</b>: Generative Active Learning to Explore Therapeutic Space</td> </tr>
-      <tr> <td>17:40-18:00</td> <td>Discussion with <b>Yoshua Bengio</b></td> </tr>
-      <tr> <td>18:00-18:10</td> <td>Closing remarks</td> </tr>
-    </tbody>
-  </table>
+<!-- Title -->
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h2 class="card-title main-title text-center" style="">
+            Towards Explainable End-to-End Prostate Cancer Relapse Prediction from H&amp;E Images Combining Self-Attention Multiple Instance Learning with a Recurrent Neural Network
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-center">
+            
+            Esther Dietrich, Patrick Fuhlert, Anne Ernst, Guido Sauter, Maximilian Lennartz, H. Siegfried Stiehl, Marina Zimmermann*, Stefan Bonn*
+            
+        </h3>
+        <p class="card-text text-center">
+            <span class=""><b>Keywords:</b></span>
+            
+            explainability, attention
+            
+            <br>
+            <p style="text-align:left;">
+            <b>Abstract:</b> Clinical decision support for histopathology image data mainly focuses on strongly supervised annotations, which offers intuitive interpretability, but is bound by expert performance. Here, we propose an explainable cancer relapse prediction network (eCaReNet) and show that end-to-end learning without strong annotations offers state-of-the-art performance while interpretability can be included through an attention mechanism. On the use case of prostate cancer survival prediction, using 14,479 images and only relapse times as annotations, we reach a cumulative dynamic AUC of 0.78 on a validation set, being on par with an expert pathologist (and an AUC of 0.77 on a separate test set). Our model is well-calibrated and outputs survival curves as well as a risk score and group per patient. Making use of the attention weights of a multiple instance learning layer, we show that malignant patches have a higher influence on the prediction than benign patches, thus offering an intuitive interpretation of the prediction. Our code is available atÊwww.github.com/imsb-uke/ecarenet.
+            </p>
+        </p>
+        <div class="text-center p-3">
+            <!--a class="card-link" data-toggle="collapse" role="button"
+               href="#details">
+                Abstract 
+            </a-->
+            <a class="card-link" target="_blank" href="">
+            </a>
+            
+            <a href="https://drive.google.com/open?id=1UOtFj0P4F0tnYb97RtoGUth5wIpE_GWK" target="_blank" class="card-link">
+                Paper
+            </a>
+            
+            
+        </div>
+    </div>
 </div>
+<div id="details" class="pp-card m-3 collapse">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                Clinical decision support for histopathology image data mainly focuses on strongly supervised annotations, which offers intuitive interpretability, but is bound by expert performance. Here, we propose an explainable cancer relapse prediction network (eCaReNet) and show that end-to-end learning without strong annotations offers state-of-the-art performance while interpretability can be included through an attention mechanism. On the use case of prostate cancer survival prediction, using 14,479 images and only relapse times as annotations, we reach a cumulative dynamic AUC of 0.78 on a validation set, being on par with an expert pathologist (and an AUC of 0.77 on a separate test set). Our model is well-calibrated and outputs survival curves as well as a risk score and group per patient. Making use of the attention weights of a multiple instance learning layer, we show that malignant patches have a higher influence on the prediction than benign patches, thus offering an intuitive interpretation of the prediction. Our code is available atÊwww.github.com/imsb-uke/ecarenet.
+            </div>
+        </div>
+        <p></p>
+    </div>
 </div>
-</div>
+
+<!--h5 style="color: red;">
+    Add content for posters. This could be a video, embedded pdf, chat room ....
+</h5-->
+<!-- Slides Live-->
+
+
+
+
+
+
+<!-- Chat -->
+
+<div role="main" id="pdf_view"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
+<script src="static/js/modules/pdfRender.js"></script>
+<script>
+  $(document).ready(() => {
+    // render first page of PDF to div
+    // PDF name can be bound to variable -- e.g. paper.content.poster_link
+    const pdfFile =
+      " /static/images/GLTR_poster.pdf";
+    initPDFViewer(pdfFile, "#pdf_view");
+  });
+</script>
+
+
+
 
     </div>
 </div>

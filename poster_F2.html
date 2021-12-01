@@ -77,25 +77,19 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>ML4H: Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation</title>
+    <title>ML4H: MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog System</title>
     
-<meta name="citation_title" content="Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation"/>
+<meta name="citation_title" content="MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog System"/>
 
-<meta name="citation_author" content="Nitin Rathi"/>
-
-<meta name="citation_author" content="Gopalakrishnan Srinivasan"/>
-
-<meta name="citation_author" content="Priyadarshini Panda"/>
-
-<meta name="citation_author" content="Kaushik Roy"/>
+<meta name="citation_author" content="Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan"/>
 
 <meta name="citation_publication_date" content="December 2021"/>
 <meta name="citation_conference_title"
       content="Machine Learning For Health (Ml4h)"/>
 <meta name="citation_inbook_title" content="Proceedings of ML4H 2021"/>
-<meta name="citation_abstract" content="Spiking Neural Networks (SNNs) operate with asynchronous discrete events (or spikes) which can potentially lead to higher energy-efficiency in neuromorphic hardware implementations. Many works have shown that an SNN for inference can be formed by copying the weights from a trained Artificial Neural Network (ANN) and setting the firing threshold for each layer as the maximum input received in that layer. These type of converted SNNs require a large number of time steps to achieve competitive accuracy which diminishes the energy savings. The number of time steps can be reduced by training SNNs with spike-based backpropagation from scratch, but that is computationally expensive and slow. To address these challenges, we present a computationally-efficient training technique for deep SNNs. We propose a hybrid training methodology: 1) take a converted SNN and use its weights and thresholds as an initialization step for spike-based backpropagation, and 2) perform incremental spike-timing dependent backpropagation (STDB) on this carefully initialized network to obtain an SNN that converges within few epochs and requires fewer time steps for input processing. STDB is performed with a novel surrogate gradient function defined using neuron&#39;s spike time. The weight update is proportional to the difference in spike timing between the current time step and the most recent time step the neuron generated an output spike. The SNNs trained with our hybrid conversion-and-STDB training perform at $10{\times}{-}25{\times}$ fewer number of time steps and achieve similar accuracy compared to purely converted SNNs. The proposed training methodology converges in less than $20$ epochs of spike-based backpropagation for most standard image classification datasets, thereby greatly reducing the training complexity compared to training SNNs from scratch. We perform experiments on CIFAR-10, CIFAR-100 and ImageNet datasets for both VGG and ResNet architectures. We achieve top-1 accuracy of $65.19\%$ for ImageNet dataset on SNN with $250$ time steps, which is $10{\times}$ faster compared to converted SNNs with similar accuracy."/>
+<meta name="citation_abstract" content="We present MEDCOD, a Medically-Accurate, Emotive, Diverse, and Controllable Dialog system with a unique approach to the natural language generator module. MEDCOD has been developed and evaluated specifically for the history taking task. It integrates the advantage of a traditional modular-design approach for incorporating (medical) domain knowledge with modern deep learning to generate flexible, human-like natural language expressions. Two key aspects of the human-like character in the natural language output of MEDCOD are described in detail. First, the generated sentences are emotive and empathetic, similar to how a doctor would communicate to the patient. Second, the generated sentence structures and phrasings are varied and diverse, while maintaining medical consistency with the desired medical concept produced by the dialogue manager module of MEDCOD. Experimental results demonstrate the effectiveness of our approach in the development of a human-like medical dialogue system. Relevant code is available at https://github.com/curai/curai-research/tree/main/MEDCOD"/>
 
-<meta name="citation_keywords" content="imagenet"/>
+<meta name="citation_keywords" content="nlp"/>
 
 <meta name="citation_pdf_url" content=""/>
 
@@ -217,27 +211,21 @@
 <div class="pp-card m-3" style="">
     <div class="card-header">
         <h2 class="card-title main-title text-center" style="">
-            Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation
+            MEDCOD: A Medically-Accurate, Emotive, Diverse, and Controllable Dialog System
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
             
-            Nitin Rathi,
-            
-            Gopalakrishnan Srinivasan,
-            
-            Priyadarshini Panda,
-            
-            Kaushik Roy
+            Rhys Compton, Ilya Valmianski, Li Deng, Costa Huang, Namit Katariya, Xavier Amatriain, Anitha Kannan
             
         </h3>
         <p class="card-text text-center">
             <span class=""><b>Keywords:</b></span>
             
-            imagenet
+            nlp
             
             <br>
             <p style="text-align:left;">
-            <b>Abstract:</b> Spiking Neural Networks (SNNs) operate with asynchronous discrete events (or spikes) which can potentially lead to higher energy-efficiency in neuromorphic hardware implementations. Many works have shown that an SNN for inference can be formed by copying the weights from a trained Artificial Neural Network (ANN) and setting the firing threshold for each layer as the maximum input received in that layer. These type of converted SNNs require a large number of time steps to achieve competitive accuracy which diminishes the energy savings. The number of time steps can be reduced by training SNNs with spike-based backpropagation from scratch, but that is computationally expensive and slow. To address these challenges, we present a computationally-efficient training technique for deep SNNs. We propose a hybrid training methodology: 1) take a converted SNN and use its weights and thresholds as an initialization step for spike-based backpropagation, and 2) perform incremental spike-timing dependent backpropagation (STDB) on this carefully initialized network to obtain an SNN that converges within few epochs and requires fewer time steps for input processing. STDB is performed with a novel surrogate gradient function defined using neuron&#39;s spike time. The weight update is proportional to the difference in spike timing between the current time step and the most recent time step the neuron generated an output spike. The SNNs trained with our hybrid conversion-and-STDB training perform at $10{\times}{-}25{\times}$ fewer number of time steps and achieve similar accuracy compared to purely converted SNNs. The proposed training methodology converges in less than $20$ epochs of spike-based backpropagation for most standard image classification datasets, thereby greatly reducing the training complexity compared to training SNNs from scratch. We perform experiments on CIFAR-10, CIFAR-100 and ImageNet datasets for both VGG and ResNet architectures. We achieve top-1 accuracy of $65.19\%$ for ImageNet dataset on SNN with $250$ time steps, which is $10{\times}$ faster compared to converted SNNs with similar accuracy.
+            <b>Abstract:</b> We present MEDCOD, a Medically-Accurate, Emotive, Diverse, and Controllable Dialog system with a unique approach to the natural language generator module. MEDCOD has been developed and evaluated specifically for the history taking task. It integrates the advantage of a traditional modular-design approach for incorporating (medical) domain knowledge with modern deep learning to generate flexible, human-like natural language expressions. Two key aspects of the human-like character in the natural language output of MEDCOD are described in detail. First, the generated sentences are emotive and empathetic, similar to how a doctor would communicate to the patient. Second, the generated sentence structures and phrasings are varied and diverse, while maintaining medical consistency with the desired medical concept produced by the dialogue manager module of MEDCOD. Experimental results demonstrate the effectiveness of our approach in the development of a human-like medical dialogue system. Relevant code is available at https://github.com/curai/curai-research/tree/main/MEDCOD
             </p>
         </p>
         <div class="text-center p-3">
@@ -246,6 +234,10 @@
                 Abstract 
             </a-->
             <a class="card-link" target="_blank" href="">
+            </a>
+            
+            <a href="https://drive.google.com/open?id=1VwW8kcg2dDvkUahTFwSg4NXdDgoXEbLN" target="_blank" class="card-link">
+                Paper
             </a>
             
             
@@ -257,7 +249,7 @@
         <div class="card-text">
             <div id="abstractExample">
                 <span class="font-weight-bold">Abstract:</span>
-                Spiking Neural Networks (SNNs) operate with asynchronous discrete events (or spikes) which can potentially lead to higher energy-efficiency in neuromorphic hardware implementations. Many works have shown that an SNN for inference can be formed by copying the weights from a trained Artificial Neural Network (ANN) and setting the firing threshold for each layer as the maximum input received in that layer. These type of converted SNNs require a large number of time steps to achieve competitive accuracy which diminishes the energy savings. The number of time steps can be reduced by training SNNs with spike-based backpropagation from scratch, but that is computationally expensive and slow. To address these challenges, we present a computationally-efficient training technique for deep SNNs. We propose a hybrid training methodology: 1) take a converted SNN and use its weights and thresholds as an initialization step for spike-based backpropagation, and 2) perform incremental spike-timing dependent backpropagation (STDB) on this carefully initialized network to obtain an SNN that converges within few epochs and requires fewer time steps for input processing. STDB is performed with a novel surrogate gradient function defined using neuron&#39;s spike time. The weight update is proportional to the difference in spike timing between the current time step and the most recent time step the neuron generated an output spike. The SNNs trained with our hybrid conversion-and-STDB training perform at $10{\times}{-}25{\times}$ fewer number of time steps and achieve similar accuracy compared to purely converted SNNs. The proposed training methodology converges in less than $20$ epochs of spike-based backpropagation for most standard image classification datasets, thereby greatly reducing the training complexity compared to training SNNs from scratch. We perform experiments on CIFAR-10, CIFAR-100 and ImageNet datasets for both VGG and ResNet architectures. We achieve top-1 accuracy of $65.19\%$ for ImageNet dataset on SNN with $250$ time steps, which is $10{\times}$ faster compared to converted SNNs with similar accuracy.
+                We present MEDCOD, a Medically-Accurate, Emotive, Diverse, and Controllable Dialog system with a unique approach to the natural language generator module. MEDCOD has been developed and evaluated specifically for the history taking task. It integrates the advantage of a traditional modular-design approach for incorporating (medical) domain knowledge with modern deep learning to generate flexible, human-like natural language expressions. Two key aspects of the human-like character in the natural language output of MEDCOD are described in detail. First, the generated sentences are emotive and empathetic, similar to how a doctor would communicate to the patient. Second, the generated sentence structures and phrasings are varied and diverse, while maintaining medical consistency with the desired medical concept produced by the dialogue manager module of MEDCOD. Experimental results demonstrate the effectiveness of our approach in the development of a human-like medical dialogue system. Relevant code is available at https://github.com/curai/curai-research/tree/main/MEDCOD
             </div>
         </div>
         <p></p>
